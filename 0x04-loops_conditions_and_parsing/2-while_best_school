@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# using a while loop to print "Best School" 10 times
+
+a=1
+while ((a <= 10))
+
+	do
+	echo "Best School"
+	((a++))
+	done
