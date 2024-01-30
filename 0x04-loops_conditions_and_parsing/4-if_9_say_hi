@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#script that prints text 10 times with the while loop
 
 COUNTER=0
 while [ $COUNTER -lt 10 ]
