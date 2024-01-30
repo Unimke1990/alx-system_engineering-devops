@@ -1,13 +1,17 @@
-!/usr/bin/env bash
-#using a while loop to print "Best School" 10 times
+#!/usr/bin/env bash
+#using the while loop to print
 
-a=1
-while ((a <= 10))
-	do
-	echo "Best School"
-	((a++))
+ounter=1
+message="Best School"
 
-	if [ $a -eq 10 ]; then
-	echo "Hi"
-	fi
+
+while [[ $counter -le 10 ]]; do
+
+  echo "$message"
+
+    if [[ $counter -eq 9 ]]; then
+        echo "Hi"
+	  fi
+
+	    ((counter++))
 	done
