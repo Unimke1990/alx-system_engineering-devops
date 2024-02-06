@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#script that loops from 1 - 10 and display
+#some characters
+
 count=0
 
 while [ $count -lt 10 ]
