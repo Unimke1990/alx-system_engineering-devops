@@ -1,0 +1,60 @@
+What Happens When You Type https://www.google.com in Your Browser and Press Enter 
+  
+
+Ever been curious about the intricate process that unfolds when you type a URL such as “https://www.google.com” into your browser and hit Enter? You’re not alone! This seemingly straightforward action triggers a series of sophisticated events, where various technologies harmoniously interact. In this post, I’ll break down each step of this captivating journey, from the initial Domain Name System (DNS) request to the, Transmission Control Protocol/Internet Protocol (TCP/IP) connection, firewall checks, Hypertext Transfer Protocol Secure/Secure Sockets Layer (HTTPS/SSL) handshake, load-balancer management, web server request handling, application server processing, and database interactions to the final rendering of the webpage on your screen. 
+
+ 
+
+Domain Name System (DNS) Request 
+
+The first step involves the Domain Name System (DNS). Your browser needs to translate www.google.com into an Internet Protocol (IP) address. It queries DNS servers, starting with a cache check and then moving to your Internet Service Provider’s (ISP) DNS server. If the IP address is not found there, the request goes up the hierarchy to root, top-level domain (TLD), and authoritative DNS servers until the IP address is resolved. 
+
+  
+
+Transmission Control Protocol/Internet Protocol (TCP/IP) 
+
+With the IP address in hand, your browser initiates a connection using the Transmission Control Protocol (TCP). This involves a three-way handshake: Synchronize (SYN), Synchronize-Acknowledge (SYN-ACK), and Acknowledge (ACK) packets are exchanged between your computer and Google’s server to establish a reliable connection. This process ensures that both ends are ready for data transmission. 
+
+  
+
+Firewall 
+
+Firewalls play a crucial role in network security by monitoring and filtering incoming and outgoing traffic. Before reaching Google's server, your request passes through multiple firewalls. Each firewall scrutinizes the packet, allowing or blocking it based on predefined security rules to protect against malicious traffic. 
+
+  
+
+Hypertext Transfer Protocol Secure/Secure Sockets Layer (HTTPS/SSL) 
+
+Your connection to Google is secured using Hypertext Transfer Protocol Secure (HTTPS), which involves Secure Sockets Layer (SSL) protocols. An SSL handshake occurs where your browser and Google’s server exchange keys and establish an encrypted session. This ensures that data transmitted between your browser and the server is encrypted and secure from eavesdroppers. 
+
+  
+
+Load-Balancer 
+
+To manage heavy traffic and ensure efficient resource use, Google employs load balancers. These devices distribute incoming requests across multiple servers. The load balancer assesses the current load and directs your request to the server with optimal availability, enhancing performance and reliability. 
+
+  
+
+Web Server 
+
+Once past the load balancer, your request reaches Google’s web server. The web server’s primary role is to handle Hypertext Transfer Protocol (HTTP) requests, serving static content such as Hypertext Markup Language (HTML), Cascading Style Sheets (CSS), and images. It interprets the Uniform Resource Locator (URL) and maps it to the corresponding resource, sending back the requested webpage if it is a static resource. 
+
+  
+
+Application Server 
+
+For dynamic content, the request is forwarded to an application server. This server processes requests that require server-side logic, such as searching for a term or retrieving personalized user data. It executes the necessary application code, interacts with databases, and compiles a response. 
+
+  
+
+Database 
+
+Finally, the application server often needs to fetch or update data stored in databases. It sends queries to a database server, which processes these queries and returns the requested data. This data might include user information, search results, or other dynamically generated content that the application server uses to construct the final response. 
+
+  
+
+Conclusion 
+
+In summary, a seemingly simple action like typing a URL and pressing Enter triggers a long chain of events involving multiple technologies and processes to deliver the requested webpage securely and efficiently. From translating the domain name to an IP address via the Domain Name System (DNS), establishing a reliable connection through the Transmission Control Protocol/Internet Protocol (TCP/IP), ensuring security with Hypertext Transfer Protocol Secure/Secure Sockets Layer (HTTPS/SSL), and handling the request through load balancers, web servers, application servers, and databases, the entire process is a marvel of modern internet technology. Understanding these steps highlights the intricate workings behind everyday internet use. 
+
+ 
