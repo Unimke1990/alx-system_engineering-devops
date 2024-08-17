@@ -3,7 +3,7 @@ POSTMORTEM: UNEXPECTED SSH CONNECTION TIMEOUT
 
 ISSUE SUMMARY:
 
-Duration: 2 hours (14:00 - 16:00 GMT +1 )
+Duration: 2 hours (14:00 - 16:00 GMT +1)
 
 Impact: 30% of users experienced slow SSH connections, leading to failed deployments and disrupted development workflows.
 
