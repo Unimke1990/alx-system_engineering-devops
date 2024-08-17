@@ -1,1 +1,1 @@
-creating SSH keys
+creating the SSH keys
