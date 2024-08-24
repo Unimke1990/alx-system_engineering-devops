@@ -1,5 +1,6 @@
 #automating my remote server using puppet
 
+
 package {'nginx':
   ensure => installed,
 }
